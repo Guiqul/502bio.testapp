@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>现代生物基础题库系统</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="bio-bg" aria-hidden="true"></canvas>
+  <main class="app">
+    <aside class="side">
+      <div class="brand">
+        <div class="mark">BIO</div>
+        <div>
+          <h1>现代生物基础题库</h1>
+          <p>章节题库 · 顺序/随机 · 错题回看</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><span id="totalCount">0</span><small>题目</small></div>
+        <div><span id="doneCount">0</span><small>已做</small></div>
+        <div><span id="accRate">0%</span><small>正确率</small></div>
+      </div>
+
+      <section class="panel">
+        <h2>练习模式</h2>
+        <label><input type="radio" name="mode" value="adaptive" checked> 智能随机</label>
+        <label><input type="radio" name="mode" value="order"> 当前题库顺序</label>
+        <label><input type="radio" name="mode" value="priority"> 重点题</label>
+        <label><input type="radio" name="mode" value="mistakes"> 错题本</label>
+        <label><input type="radio" name="mode" value="all"> 全部打乱</label>
+      </section>
+
+      <section class="panel">
+        <h2>选择题库</h2>
+        <select id="chapterFilter"></select>
+      </section>
+
+      <section class="panel">
+        <h2>操作</h2>
+        <button id="nextBtn">下一题</button>
+        <button id="resetBtn" class="secondary">清空本机记录</button>
+        <button id="exportBtn" class="secondary">导出记录</button>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <nav class="tabs" aria-label="题库功能">
+        <button class="tab active" data-view="practiceView">当前练习</button>
+        <button class="tab" data-view="bankView">题库列表</button>
+        <button class="tab" data-view="reviewView">已做回看</button>
+      </nav>
+
+      <section id="practiceView" class="view active">
+        <div class="toolbar">
+          <span id="badge">加载中</span>
+          <span id="tags"></span>
+        </div>
+        <article class="question-card">
+          <div class="q-head">
+            <span id="qid"></span>
+            <span id="qtype"></span>
+          </div>
+          <h2 id="prompt"></h2>
+          <div id="options"></div>
+          <textarea id="shortAnswer" placeholder="简答题可以先写自己的答案，再提交查看标准答案和解析。"></textarea>
+          <div class="actions">
+            <button id="checkBtn">提交答案</button>
+            <button id="showBtn" class="secondary">直接看答案</button>
+            <button id="againBtn" class="secondary">标为重点</button>
+          </div>
+          <section id="feedback"></section>
+        </article>
+      </section>
+
+      <section id="bankView" class="view">
+        <div class="section-head">
+          <div>
+            <h2>题库列表</h2>
+            <p id="bankSummary"></p>
+          </div>
+          <input id="searchBox" type="search" placeholder="搜索题干/答案/解析">
+        </div>
+        <div id="questionList" class="question-list"></div>
+      </section>
+
+      <section id="reviewView" class="view">
+        <div class="section-head">
+          <div>
+            <h2>已做回看</h2>
+            <p>每个人的数据只保存在自己的浏览器本机，不会互相影响。</p>
+          </div>
+          <select id="reviewFilter">
+            <option value="all">全部已做</option>
+            <option value="wrong">只看错题</option>
+            <option value="correct">只看正确</option>
+          </select>
+        </div>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

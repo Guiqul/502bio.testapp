@@ -1,0 +1,4439 @@
+window.BIO_QUESTIONS = [
+  {
+    "id": "LS001",
+    "chapter": "第一章 生命科学导论",
+    "type": "single",
+    "prompt": "生命的基本特征不包括哪一项？",
+    "options": [
+      "新陈代谢",
+      "稳态",
+      "遗传变异",
+      "无序性"
+    ],
+    "answer": "不包括无序性",
+    "explanation": "生命系统表现为有序结构、代谢、稳态、应激、生长繁殖、遗传变异和进化。",
+    "tags": [
+      "基础概念"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS002",
+    "chapter": "第一章 生命科学导论",
+    "type": "short",
+    "prompt": "生命的基本特征是什么？",
+    "options": [],
+    "answer": "细胞结构、新陈代谢、稳态、应激性、生长发育、繁殖、遗传变异、适应和进化。",
+    "explanation": "答题时要从结构、代谢、信息和进化四个角度展开。",
+    "tags": [
+      "课后题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS003",
+    "chapter": "第一章 生命科学导论",
+    "type": "short",
+    "prompt": "孟德尔在生物学研究方法上有什么创新？",
+    "options": [],
+    "answer": "把杂交实验、严格选材、数量统计和数学分析结合起来研究遗传规律。",
+    "explanation": "孟德尔的创新不是只做杂交，而是用统计比例从大量后代中概括规律。",
+    "tags": [
+      "遗传学史"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS004",
+    "chapter": "第一章 生命科学导论",
+    "type": "short",
+    "prompt": "生命科学技术可能引发哪些伦理道德问题？",
+    "options": [],
+    "answer": "基因编辑、克隆、胚胎干细胞、辅助生殖、基因隐私、转基因安全和生物安全等问题。",
+    "explanation": "综合题可从个体尊严、社会公平、生态风险和监管制度四方面分析。",
+    "tags": [
+      "伦理"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS005",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "自然界中存在的葡萄糖的构象主要是？",
+    "options": [
+      "为D型、L型两种构象",
+      "为L型构象",
+      "为D型构象",
+      "上述均不对"
+    ],
+    "answer": "D型构象",
+    "explanation": "天然糖类多为D型构型；氨基酸则多为L型。",
+    "tags": [
+      "截图题",
+      "糖类"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS006",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "动物细胞中糖的贮藏形态是？",
+    "options": [
+      "几丁质",
+      "淀粉",
+      "纤维素",
+      "糖原"
+    ],
+    "answer": "糖原",
+    "explanation": "植物储存多糖主要是淀粉，动物储存多糖主要是糖原。",
+    "tags": [
+      "原图",
+      "截图题",
+      "糖类"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS007",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "下列哪一项是核酸的组成单位？",
+    "options": [
+      "氨基酸",
+      "脂肪酸",
+      "核苷酸",
+      "单糖"
+    ],
+    "answer": "核苷酸",
+    "explanation": "核酸由核苷酸聚合而成；氨基酸是蛋白质单体，单糖是多糖单体。",
+    "tags": [
+      "原图",
+      "截图题",
+      "核酸"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS008",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "蛋白质的基本组成单位是？",
+    "options": [
+      "核苷酸",
+      "氨基酸",
+      "葡萄糖",
+      "脂肪酸"
+    ],
+    "answer": "氨基酸",
+    "explanation": "氨基酸通过肽键连接形成多肽链，多肽进一步折叠形成功能蛋白。",
+    "tags": [
+      "蛋白质"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS009",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "连接氨基酸形成蛋白质一级结构的化学键是？",
+    "options": [
+      "氢键",
+      "肽键",
+      "糖苷键",
+      "磷酸二酯键"
+    ],
+    "answer": "肽键",
+    "explanation": "肽键由一个氨基酸的羧基与另一个氨基酸的氨基脱水缩合形成。",
+    "tags": [
+      "蛋白质"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS010",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "连接核苷酸形成核酸长链的化学键是？",
+    "options": [
+      "肽键",
+      "糖苷键",
+      "磷酸二酯键",
+      "二硫键"
+    ],
+    "answer": "磷酸二酯键",
+    "explanation": "核酸主链由3′,5′-磷酸二酯键连接。",
+    "tags": [
+      "核酸"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS011",
+    "chapter": "第二章 生命的物质基础",
+    "type": "short",
+    "prompt": "DNA双螺旋结构模型的要点是什么？",
+    "options": [],
+    "answer": "两条反向平行链，糖-磷酸骨架在外，碱基在内，A-T、G-C互补配对，碱基序列储存遗传信息。",
+    "explanation": "这是核酸部分最常考的简答题，注意写出反向平行和碱基互补。",
+    "tags": [
+      "课后题",
+      "DNA"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS012",
+    "chapter": "第二章 生命的物质基础",
+    "type": "short",
+    "prompt": "蛋白质变性和蛋白质水解有什么区别？",
+    "options": [],
+    "answer": "变性主要破坏空间构象，一级结构通常不变；水解断裂肽键，使蛋白质分解为多肽或氨基酸。",
+    "explanation": "关键词：变性破坏高级结构；水解破坏共价肽键。",
+    "tags": [
+      "蛋白质"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS013",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "下列哪一项主要承担遗传信息储存功能？",
+    "options": [
+      "蛋白质",
+      "核酸",
+      "脂类",
+      "无机盐"
+    ],
+    "answer": "核酸",
+    "explanation": "DNA储存遗传信息，RNA参与遗传信息表达。",
+    "tags": [
+      "基础概念"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS014",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "构成生物膜基本骨架的主要成分是？",
+    "options": [
+      "纤维素",
+      "磷脂双分子层",
+      "淀粉",
+      "核酸"
+    ],
+    "answer": "磷脂双分子层",
+    "explanation": "生物膜以磷脂双分子层为骨架，蛋白质镶嵌或附着其上。",
+    "tags": [
+      "膜结构"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS015",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "原核细胞与真核细胞最主要的区别是？",
+    "options": [
+      "是否有细胞膜",
+      "是否有DNA",
+      "是否具有核膜包被的细胞核",
+      "是否能代谢"
+    ],
+    "answer": "是否具有核膜包被的细胞核",
+    "explanation": "原核细胞无成形细胞核；真核细胞具有核膜包被的细胞核和膜性细胞器。",
+    "tags": [
+      "细胞"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS016",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "线粒体的主要功能是？",
+    "options": [
+      "光合作用",
+      "有氧呼吸和ATP合成",
+      "蛋白质合成",
+      "胞内消化"
+    ],
+    "answer": "进行有氧呼吸并合成ATP",
+    "explanation": "线粒体是有氧呼吸主要场所，被称为细胞的能量转换器。",
+    "tags": [
+      "细胞器"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS017",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "叶绿体的主要功能是？",
+    "options": [
+      "光合作用",
+      "有氧呼吸",
+      "蛋白质加工",
+      "核酸复制"
+    ],
+    "answer": "光合作用",
+    "explanation": "叶绿体利用光能把CO2和水转化为有机物，并释放氧气。",
+    "tags": [
+      "细胞器"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS018",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "short",
+    "prompt": "什么是流动镶嵌模型？",
+    "options": [],
+    "answer": "生物膜以磷脂双分子层为基本骨架，膜蛋白镶嵌、贯穿或附着其中，膜脂和部分膜蛋白可侧向流动。",
+    "explanation": "重点词：磷脂双分子层、膜蛋白、镶嵌、流动性。",
+    "tags": [
+      "课后题",
+      "膜结构"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS019",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "酶的作用特点不包括？",
+    "options": [
+      "高效性",
+      "专一性",
+      "条件温和",
+      "反应后一定被消耗"
+    ],
+    "answer": "反应后一定被消耗",
+    "explanation": "酶作为生物催化剂，反应前后自身通常不被消耗。",
+    "tags": [
+      "酶"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS020",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "糖酵解发生的主要部位是？",
+    "options": [
+      "细胞核",
+      "细胞质",
+      "线粒体内膜",
+      "叶绿体"
+    ],
+    "answer": "细胞质",
+    "explanation": "糖酵解在细胞质中进行，柠檬酸循环在线粒体基质中进行。",
+    "tags": [
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS021",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "short",
+    "prompt": "比较自由扩散、协助扩散和主动运输。",
+    "options": [],
+    "answer": "自由扩散不需载体和能量；协助扩散需通道或载体但不耗能；主动运输逆浓度梯度进行，需要能量和载体。",
+    "explanation": "这类题要抓住是否顺浓度梯度、是否需要载体、是否消耗能量。",
+    "tags": [
+      "跨膜运输"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS022",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "short",
+    "prompt": "试述转录和翻译的主要过程。",
+    "options": [],
+    "answer": "转录以DNA为模板合成RNA；翻译在核糖体上根据mRNA密码子，由tRNA携带氨基酸合成多肽。",
+    "explanation": "遗传信息表达题常与第六章中心法则一起考。",
+    "tags": [
+      "遗传信息表达"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS023",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "DNA复制发生在细胞周期的哪个时期？",
+    "options": [
+      "G1期",
+      "S期",
+      "G2期",
+      "M期"
+    ],
+    "answer": "S期",
+    "explanation": "S期是DNA合成期，M期进行染色体分配和细胞分裂。",
+    "tags": [
+      "细胞周期"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS024",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "有丝分裂中染色体排列在赤道板的时期是？",
+    "options": [
+      "前期",
+      "中期",
+      "后期",
+      "末期"
+    ],
+    "answer": "中期",
+    "explanation": "中期染色体整齐排列在赤道板，是观察染色体形态的好时期。",
+    "tags": [
+      "细胞分裂"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS025",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "减数分裂的主要结果是？",
+    "options": [
+      "染色体数目加倍",
+      "染色体数目减半并产生遗传重组",
+      "产生两个相同细胞",
+      "只发生在体细胞"
+    ],
+    "answer": "染色体数目减半并产生遗传重组",
+    "explanation": "减数分裂形成单倍体配子，是有性生殖和遗传多样性的基础。",
+    "tags": [
+      "减数分裂"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS026",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "short",
+    "prompt": "细胞分化的本质是什么？",
+    "options": [],
+    "answer": "在相同基因组基础上，不同细胞选择性表达不同基因，形成不同结构和功能。",
+    "explanation": "本质不是基因丢失，而是基因选择性表达。",
+    "tags": [
+      "分化"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS027",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "short",
+    "prompt": "比较细胞坏死和细胞凋亡。",
+    "options": [],
+    "answer": "坏死多由损伤引起，膜破裂并引发炎症；凋亡是受基因调控的程序性死亡，形成凋亡小体，通常不引起明显炎症。",
+    "explanation": "这是第四章高频简答。",
+    "tags": [
+      "细胞死亡"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS028",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "short",
+    "prompt": "癌细胞与正常细胞相比有哪些特点？",
+    "options": [],
+    "answer": "失控增殖、接触抑制丧失、分化程度低、逃避免疫和凋亡、侵袭转移、诱导血管生成等。",
+    "explanation": "答题要把细胞周期调控失衡和侵袭转移写出来。",
+    "tags": [
+      "癌变"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS029",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "神经元沿轴突传导的信息主要表现为？",
+    "options": [
+      "激素",
+      "动作电位",
+      "抗体",
+      "酶促反应"
+    ],
+    "answer": "动作电位",
+    "explanation": "动作电位是神经兴奋沿轴突传导的基本形式。",
+    "tags": [
+      "神经"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS030",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "胰岛素的主要作用是？",
+    "options": [
+      "升高血糖",
+      "降低血糖",
+      "促进钙吸收",
+      "产生抗体"
+    ],
+    "answer": "降低血糖",
+    "explanation": "胰岛素促进葡萄糖摄取、利用和储存，分泌不足可导致糖尿病症状。",
+    "tags": [
+      "内分泌"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS031",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "抗体主要由哪类细胞分化形成的浆细胞产生？",
+    "options": [
+      "T细胞",
+      "B细胞",
+      "红细胞",
+      "神经元"
+    ],
+    "answer": "B细胞",
+    "explanation": "B细胞分化为浆细胞产生抗体，参与体液免疫。",
+    "tags": [
+      "免疫"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS032",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "short",
+    "prompt": "什么是静息电位？神经元如何维持静息电位？",
+    "options": [],
+    "answer": "静息电位是未兴奋时膜内相对膜外为负的电位差，由K+外流、膜选择通透性、Na+/K+泵和胞内负电荷共同维持。",
+    "explanation": "关键词：膜内负、K+通透性高、钠钾泵。",
+    "tags": [
+      "神经"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS033",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "short",
+    "prompt": "主动免疫和被动免疫有什么区别？",
+    "options": [],
+    "answer": "主动免疫是机体接触抗原后自己产生免疫应答和记忆；被动免疫是直接获得现成抗体，起效快但持续短。",
+    "explanation": "疫苗属于主动免疫，抗血清或母体抗体属于被动免疫。",
+    "tags": [
+      "免疫"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS034",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "基因的本质通常是？",
+    "options": [
+      "蛋白质片段",
+      "具有遗传效应的DNA片段",
+      "细胞器",
+      "脂类分子"
+    ],
+    "answer": "具有遗传效应的DNA片段",
+    "explanation": "基因是控制性状的基本遗传单位，通常是具有遗传效应的DNA片段。",
+    "tags": [
+      "基因"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS035",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "孟德尔分离定律的细胞学基础是？",
+    "options": [
+      "DNA复制",
+      "同源染色体分离",
+      "蛋白质翻译",
+      "细胞膜流动"
+    ],
+    "answer": "同源染色体分离",
+    "explanation": "形成配子时同源染色体分离，使等位基因分离。",
+    "tags": [
+      "孟德尔"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS036",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "孟德尔自由组合定律的细胞学基础是？",
+    "options": [
+      "同源染色体联会",
+      "非同源染色体自由组合",
+      "姐妹染色单体分离",
+      "DNA转录"
+    ],
+    "answer": "非同源染色体自由组合",
+    "explanation": "非同源染色体上的非等位基因在减数分裂中可自由组合。",
+    "tags": [
+      "孟德尔"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS037",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "证明DNA是转化因子的关键实验是？",
+    "options": [
+      "孟德尔豌豆实验",
+      "艾弗里实验",
+      "米勒实验",
+      "巴斯德曲颈瓶实验"
+    ],
+    "answer": "艾弗里实验",
+    "explanation": "艾弗里用酶处理转化物质，证明只有破坏DNA才会使转化消失。",
+    "tags": [
+      "DNA证据"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS038",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "赫尔希-蔡斯噬菌体实验中，进入细菌并指导子代形成的主要物质是？",
+    "options": [
+      "蛋白质",
+      "DNA",
+      "脂类",
+      "多糖"
+    ],
+    "answer": "DNA",
+    "explanation": "32P标记DNA进入细菌，35S标记蛋白质主要留在细胞外。",
+    "tags": [
+      "DNA证据"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS039",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "中心法则中，遗传信息从DNA到RNA的过程称为？",
+    "options": [
+      "复制",
+      "转录",
+      "翻译",
+      "逆转录"
+    ],
+    "answer": "转录",
+    "explanation": "DNA→RNA称为转录，RNA→蛋白质称为翻译。",
+    "tags": [
+      "中心法则"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS040",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "乳糖操纵子无乳糖时的状态是？",
+    "options": [
+      "高效表达",
+      "阻遏蛋白结合操纵基因，结构基因不表达或低表达",
+      "DNA被水解",
+      "核糖体解体"
+    ],
+    "answer": "阻遏蛋白结合操纵基因，结构基因不表达或低表达",
+    "explanation": "无乳糖时阻遏蛋白阻止转录；有乳糖时诱导物解除阻遏。",
+    "tags": [
+      "PPT重点",
+      "操纵子"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS041",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "基因工程中识别特定DNA序列并切割DNA的工具酶是？",
+    "options": [
+      "DNA聚合酶",
+      "限制性内切酶",
+      "淀粉酶",
+      "脂肪酶"
+    ],
+    "answer": "限制性内切酶",
+    "explanation": "限制性内切酶是基因克隆的剪刀，DNA连接酶是胶水。",
+    "tags": [
+      "基因工程"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS042",
+    "chapter": "第六章 遗传与变异",
+    "type": "short",
+    "prompt": "简述基因工程的基本步骤。",
+    "options": [],
+    "answer": "获得目的基因，选择载体，限制性内切酶切割，DNA连接酶连接形成重组DNA，导入受体细胞，筛选鉴定并表达。",
+    "explanation": "步骤题要按顺序写，最好出现目的基因、载体、重组DNA、受体和筛选。",
+    "tags": [
+      "基因工程"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS043",
+    "chapter": "第六章 遗传与变异",
+    "type": "short",
+    "prompt": "人类基因组计划的意义是什么？",
+    "options": [],
+    "answer": "推动基因诊断、精准医学、药物研发、比较基因组学和生物信息学发展，同时带来基因隐私和伦理问题。",
+    "explanation": "分析题要同时写科学意义和伦理风险。",
+    "tags": [
+      "人类基因组计划"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS044",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "生物分类的五界系统不包括哪一项？",
+    "options": [
+      "原核生物界",
+      "真菌界",
+      "植物界",
+      "病毒界"
+    ],
+    "answer": "病毒界",
+    "explanation": "五界为原核生物界、原生生物界、真菌界、植物界和动物界。",
+    "tags": [
+      "分类"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS045",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "双名法中一个物种名称通常由什么组成？",
+    "options": [
+      "科名和属名",
+      "属名和种加词",
+      "纲名和目名",
+      "门名和界名"
+    ],
+    "answer": "属名和种加词",
+    "explanation": "双名法由属名和种加词构成，属名首字母大写，种加词小写。",
+    "tags": [
+      "分类"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS046",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "病毒的基本特点是？",
+    "options": [
+      "有完整细胞结构",
+      "能独立进行有氧呼吸",
+      "无细胞结构，必须寄生在活细胞内复制",
+      "都含DNA和RNA两种核酸"
+    ],
+    "answer": "无细胞结构，必须寄生在活细胞内复制",
+    "explanation": "病毒由核酸和蛋白质衣壳组成，不能独立代谢。",
+    "tags": [
+      "病毒"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS047",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "细菌与真菌最根本的区别之一是？",
+    "options": [
+      "细菌为原核生物，真菌为真核生物",
+      "细菌有叶绿体，真菌无叶绿体",
+      "真菌没有细胞壁",
+      "细菌都能光合作用"
+    ],
+    "answer": "细菌为原核生物，真菌为真核生物",
+    "explanation": "细菌无成形细胞核，真菌有细胞核和膜性细胞器。",
+    "tags": [
+      "微生物"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS048",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "short",
+    "prompt": "生物多样性包括哪些层次？",
+    "options": [],
+    "answer": "遗传多样性、物种多样性和生态系统多样性。",
+    "explanation": "三层次必须背熟，是生态保护题的基础。",
+    "tags": [
+      "生物多样性"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS049",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "short",
+    "prompt": "生物多样性锐减的主要原因有哪些？",
+    "options": [],
+    "answer": "栖息地破坏和破碎化、过度开发、外来物种入侵、污染、气候变化和不合理生产生活方式。",
+    "explanation": "答题时先写栖息地破坏，它通常是最主要原因。",
+    "tags": [
+      "保护"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS050",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "生态系统能量流动的特点是？",
+    "options": [
+      "循环流动",
+      "单向流动、逐级递减",
+      "不发生损失",
+      "只在生产者中流动"
+    ],
+    "answer": "单向流动、逐级递减",
+    "explanation": "能量沿食物链单向传递，每经过一个营养级大量能量散失。",
+    "tags": [
+      "生态"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS051",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "十分之一定律指相邻营养级之间能量传递效率大约为？",
+    "options": [
+      "1/5",
+      "1/10",
+      "1/15",
+      "1/2"
+    ],
+    "answer": "1/10",
+    "explanation": "生态系统中相邻营养级能量传递效率通常约为10%。",
+    "tags": [
+      "截图题",
+      "生态"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS052",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "生态系统的主要组成不包括？",
+    "options": [
+      "生产者",
+      "消费者",
+      "分解者",
+      "考试系统"
+    ],
+    "answer": "考试系统",
+    "explanation": "生态系统包括生产者、消费者、分解者和非生物环境。",
+    "tags": [
+      "生态"
+    ],
+    "priority": false,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS053",
+    "chapter": "第八章 生态与环境",
+    "type": "short",
+    "prompt": "什么是食物链？",
+    "options": [],
+    "answer": "生态系统中生物之间因取食关系形成的物质和能量传递序列。",
+    "explanation": "食物链和食物网常与能量流动、营养级一起考。",
+    "tags": [
+      "生态"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS054",
+    "chapter": "第八章 生态与环境",
+    "type": "short",
+    "prompt": "如何正确认识人类与环境的关系？",
+    "options": [],
+    "answer": "人类依赖环境获得资源和生态服务，同时人类活动也改变环境；应尊重生态规律，实行资源节约、环境保护和可持续发展。",
+    "explanation": "综合题要体现人与自然生命共同体和可持续发展。",
+    "tags": [
+      "环境"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS055",
+    "chapter": "第九章 生物技术",
+    "type": "single",
+    "prompt": "基因工程中把目的基因带入受体细胞的工具通常称为？",
+    "options": [
+      "抗体",
+      "载体",
+      "核糖体",
+      "溶酶体"
+    ],
+    "answer": "载体",
+    "explanation": "载体常见类型包括质粒、噬菌体和病毒载体。",
+    "tags": [
+      "基因工程"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS056",
+    "chapter": "第九章 生物技术",
+    "type": "single",
+    "prompt": "葡萄糖生物传感器常用的生物识别元件是？",
+    "options": [
+      "DNA连接酶",
+      "葡萄糖氧化酶",
+      "限制性内切酶",
+      "淀粉酶"
+    ],
+    "answer": "葡萄糖氧化酶",
+    "explanation": "葡萄糖氧化酶能特异识别葡萄糖并产生可转换为电信号的反应。",
+    "tags": [
+      "生物传感器"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS057",
+    "chapter": "第九章 生物技术",
+    "type": "single",
+    "prompt": "免疫传感器的识别基础是？",
+    "options": [
+      "碱基互补配对",
+      "抗原-抗体特异性结合",
+      "脂肪水解",
+      "光合作用"
+    ],
+    "answer": "抗原-抗体特异性结合",
+    "explanation": "免疫传感器利用抗原抗体反应产生可检测信号。",
+    "tags": [
+      "生物传感器"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS058",
+    "chapter": "第九章 生物技术",
+    "type": "single",
+    "prompt": "DNA生物传感器的识别基础是？",
+    "options": [
+      "抗原抗体结合",
+      "碱基互补配对",
+      "酶促氧化",
+      "细胞分裂"
+    ],
+    "answer": "碱基互补配对",
+    "explanation": "DNA传感器利用探针与目标核酸序列互补杂交实现检测。",
+    "tags": [
+      "生物传感器"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS059",
+    "chapter": "第九章 生物技术",
+    "type": "short",
+    "prompt": "什么是发酵工程？",
+    "options": [],
+    "answer": "利用微生物、动植物细胞或酶在受控条件下进行代谢转化，以生产食品、药品、酶制剂、有机酸、抗生素或能源产品的工程技术。",
+    "explanation": "关键词：微生物/细胞/酶、受控条件、代谢转化、生产产品。",
+    "tags": [
+      "发酵工程"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS060",
+    "chapter": "第九章 生物技术",
+    "type": "short",
+    "prompt": "发酵工艺控制因素有哪些？",
+    "options": [],
+    "answer": "菌种、培养基、温度、pH、溶氧、搅拌、通气、接种量、补料方式和无菌操作等。",
+    "explanation": "控制条件影响菌体生长、酶活性和目标产物积累。",
+    "tags": [
+      "发酵工程"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS061",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "生物膜是细胞与外界、细胞器之间物质和信息交流的重要结构。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "生物膜系统保证区室化、物质运输、能量转换和信号传递。",
+    "tags": [
+      "截图题",
+      "判断题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS062",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "生物体内的化学反应都必须在高温条件下进行。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "多数生命活动依赖酶催化，在温和条件下进行。",
+    "tags": [
+      "判断题"
+    ],
+    "priority": false,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS063",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "DNA和RNA都属于核酸。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "核酸包括DNA和RNA两大类。",
+    "tags": [
+      "截图题",
+      "判断题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS064",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "所有病毒都具有细胞结构。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "病毒无细胞结构，必须寄生在活细胞内复制。",
+    "tags": [
+      "判断题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS065",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "自然选择是生物进化的重要机制。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "自然选择通过保留有利变异推动适应和进化。",
+    "tags": [
+      "判断题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS066",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "基因突变一定都是有害的。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "突变可能有害、有利或中性，是遗传变异的重要来源。",
+    "tags": [
+      "判断题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS067",
+    "chapter": "综合截图题",
+    "type": "tf",
+    "prompt": "生态系统中的能量可以在各营养级之间循环利用。",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "物质可循环，能量是单向流动并逐级递减。",
+    "tags": [
+      "判断题"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "截图测试题/教材课后题/第1-9章复习重点综合整理"
+  },
+  {
+    "id": "LS068",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "自然界中存在的葡萄糖的构型主要是？",
+    "options": [
+      "为D型、L型两种构型",
+      "为L型构型",
+      "为D型构型",
+      "上述均不对"
+    ],
+    "answer": "为D型构型",
+    "explanation": "天然糖多为D型；本题答案为C，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS069",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "维系蛋白质二级结构的化学键是？",
+    "options": [
+      "肽键",
+      "二硫键",
+      "氢键",
+      "疏水作用"
+    ],
+    "answer": "氢键",
+    "explanation": "α-螺旋和β-折叠主要由氢键维系；本题答案为C，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS070",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "反映蛋白质肽链折回形成特异三维构象的结构层次是？",
+    "options": [
+      "一级结构",
+      "二级结构",
+      "三级结构",
+      "四级结构"
+    ],
+    "answer": "三级结构",
+    "explanation": "三级结构体现单条多肽链整体空间构象；本题答案为C，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS071",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "RNA的组成成分是？",
+    "options": [
+      "脱氧核糖、核酸和磷酸",
+      "脱氧核糖、碱基和磷酸",
+      "核糖、碱基和磷酸",
+      "核糖、核酸和磷酸"
+    ],
+    "answer": "核糖、碱基和磷酸",
+    "explanation": "RNA的五碳糖是核糖；本题答案为C，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS072",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "多肽合成的模板是？",
+    "options": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "miRNA"
+    ],
+    "answer": "mRNA",
+    "explanation": "翻译时mRNA上的密码子决定氨基酸顺序；本题答案为A，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS073",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "细胞内含量最多的RNA是？",
+    "options": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "HnRNA"
+    ],
+    "answer": "rRNA",
+    "explanation": "核糖体RNA在细胞总RNA中比例最高；本题答案为C，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": false,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS074",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "下列说法不正确的是？",
+    "options": [
+      "蛋白质由20种基本氨基酸构成",
+      "遗传密码子有64种",
+      "RNA可分为tRNA、rRNA和mRNA三种",
+      "核酸由核苷酸通过3′,5′-磷酸二酯键连接而成",
+      "细菌的细胞壁和植物细胞壁一样都以纤维素为主构成"
+    ],
+    "answer": "细菌的细胞壁和植物细胞壁一样都以纤维素为主构成",
+    "explanation": "细菌细胞壁主要成分是肽聚糖，植物细胞壁主要为纤维素；本题答案为E，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS075",
+    "chapter": "第二章 生命的物质基础",
+    "type": "single",
+    "prompt": "脂类在生物体内的作用体现在哪些方面？",
+    "options": [
+      "是生物膜的主要成分",
+      "贮藏能量",
+      "构成生物表面的保护层",
+      "某些维生素和激素等是重要生物活性物质",
+      "以上都包括"
+    ],
+    "answer": "以上都包括",
+    "explanation": "脂类可构成膜、储能、保护和形成多种生物活性物质；本题答案为E，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS076",
+    "chapter": "第二章 生命的物质基础",
+    "type": "multi",
+    "prompt": "一条DNA链部分碱基顺序为5′-A-T-C-T-3′，能与其互补的链是？",
+    "options": [
+      "5′-T-A-G-A-3′",
+      "5′-A-G-A-U-3′",
+      "5′-U-A-G-A-3′",
+      "5′-A-G-A-T-3′",
+      "5′-T-C-T-A-3′"
+    ],
+    "answer": [
+      "5′-A-G-A-T-3′"
+    ],
+    "explanation": "互补链反向平行，3′-T-A-G-A-5′可写作5′-A-G-A-T-3′；本题答案为D，依据《生命科学导论》第3版相关知识点判断。",
+    "tags": [
+      "原图",
+      "多选"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS077",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "维生素和激素都是人体自己合成的微量但具有重要作用的有机物",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "维生素多数需从食物获得，激素多由内分泌细胞合成。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS078",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "核糖、核酮糖、木糖和阿拉伯糖都是五碳糖",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "这些糖均含五个碳原子。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS079",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "非必需氨基酸即是人体不需要的氨基酸",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "非必需氨基酸是人体能够合成，不等于不需要。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS080",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "生命运动的主要物质基础是核酸和蛋白质",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "核酸储存遗传信息，蛋白质承担多数功能。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS081",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "直链淀粉中葡萄糖分子基本上都以α-1,4糖苷键连接",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "直链淀粉主要由α-1,4糖苷键连接。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS082",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "磷脂是两性分子，一端亲水，另一端是非极性的脂肪酸尾",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "磷脂具有亲水头部和疏水尾部。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS083",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "组成蛋白质的基本单位是核苷酸",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "蛋白质基本单位是氨基酸。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS084",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "血红蛋白是由2条α多肽链和2条β多肽链组成的四聚体",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "成人血红蛋白HbA通常为α2β2。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS085",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "蛋白质变性时一级结构即氨基酸序列被破坏",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "变性主要破坏高级结构，一级结构通常不变。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS086",
+    "chapter": "第二章 生命的物质基础",
+    "type": "tf",
+    "prompt": "DNA和RNA都是双螺旋结构",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "DNA通常为双螺旋，RNA通常为单链。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS087",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "原核生物都有",
+    "options": [
+      "细胞核",
+      "线粒体",
+      "核糖体",
+      "叶绿体",
+      "中心体"
+    ],
+    "answer": "核糖体",
+    "explanation": "原核生物无膜性细胞器，但有核糖体。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS088",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "下列不属于高等植物细胞中的是",
+    "options": [
+      "细胞壁",
+      "质膜",
+      "核糖体",
+      "中心体"
+    ],
+    "answer": "中心体",
+    "explanation": "高等植物细胞通常无中心体。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS089",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "细胞质膜的主要组成成分是",
+    "options": [
+      "脂质",
+      "蛋白质",
+      "脂质和蛋白质",
+      "脂质和多糖"
+    ],
+    "answer": "脂质和蛋白质",
+    "explanation": "生物膜主要由脂质和蛋白质组成。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS090",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "细胞膜能量交换、物质运输、信息传递等功能主要与膜中的哪类成分有关？",
+    "options": [
+      "磷脂",
+      "糖类",
+      "蛋白质",
+      "固醇"
+    ],
+    "answer": "蛋白质",
+    "explanation": "膜蛋白承担转运、受体和酶等功能。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS091",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "对细胞生命活动起控制作用的是",
+    "options": [
+      "叶绿体",
+      "线粒体",
+      "细胞壁",
+      "细胞核"
+    ],
+    "answer": "细胞核",
+    "explanation": "细胞核储存遗传信息并调控生命活动。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS092",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "下列不含DNA的是",
+    "options": [
+      "细胞核",
+      "线粒体",
+      "高尔基体",
+      "叶绿体"
+    ],
+    "answer": "高尔基体",
+    "explanation": "线粒体和叶绿体含DNA，高尔基体不含DNA。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS093",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "下列不被膜包被的细胞器是",
+    "options": [
+      "线粒体",
+      "高尔基体",
+      "核糖体",
+      "溶酶体"
+    ],
+    "answer": "核糖体",
+    "explanation": "核糖体无膜结构。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS094",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "绿色植物细胞中呼吸作用的主要场所是",
+    "options": [
+      "叶绿体",
+      "线粒体",
+      "有色体",
+      "核糖体"
+    ],
+    "answer": "线粒体",
+    "explanation": "有氧呼吸主要在线粒体进行。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS095",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "细胞分泌物加工和包装的场所是",
+    "options": [
+      "高尔基体",
+      "内质网",
+      "溶酶体",
+      "线粒体"
+    ],
+    "answer": "高尔基体",
+    "explanation": "高尔基体负责修饰、分拣和包装。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS096",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "与呼吸作用有关的细胞器是",
+    "options": [
+      "核糖体",
+      "高尔基体",
+      "质体",
+      "线粒体"
+    ],
+    "answer": "线粒体",
+    "explanation": "线粒体是呼吸作用主要场所。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS097",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "线粒体的可能祖先是",
+    "options": [
+      "单细胞藻类",
+      "需氧异养原核生物",
+      "厌氧细菌",
+      "光合原生生物"
+    ],
+    "answer": "需氧异养原核生物",
+    "explanation": "内共生学说认为线粒体起源于被吞噬的需氧细菌。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS098",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "构成细胞骨架的主要成分不包括",
+    "options": [
+      "微管",
+      "微丝",
+      "中间丝",
+      "纤毛"
+    ],
+    "answer": "纤毛",
+    "explanation": "细胞骨架主要包括微管、微丝和中间丝。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS099",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "multi",
+    "prompt": "含有DNA和核糖体的细胞器是？",
+    "options": [
+      "叶绿体",
+      "线粒体",
+      "细胞核",
+      "内质网"
+    ],
+    "answer": [
+      "叶绿体",
+      "线粒体"
+    ],
+    "explanation": "线粒体和叶绿体都含有相对独立的DNA和核糖体。",
+    "tags": [
+      "原图",
+      "多选"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS100",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "细胞是生物体结构和功能的基本单位，所有细胞都由细胞壁、细胞膜、细胞质和细胞核组成",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "动物细胞无细胞壁，原核细胞无成形细胞核。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS101",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "原核细胞与真核细胞的主要区别是不含DNA和RNA两种物质",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "原核细胞也含DNA和RNA，主要区别是有无核膜包被的细胞核。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS102",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "所有单细胞生物都是原核生物",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "酵母菌和许多原生生物为单细胞真核生物。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS103",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "生物膜脂双层中磷脂亲水头朝内侧，疏水尾朝外侧",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "亲水头朝向水相，疏水尾相对朝向膜内部。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS104",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "细胞核膜是完整而密闭的膜系",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "核膜上有核孔，进行物质交换。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS105",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "核仁是细胞核内周期性出现的膜系结构物",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "核仁无膜结构。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS106",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "核糖体是蛋白质合成场所，由大小亚基组成，是rRNA和蛋白质构成的复合体",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "核糖体由rRNA和蛋白质组成。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS107",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "内质网外连细胞膜，内连核膜，不仅能合成蛋白质，还能合成脂类等物质",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "粗面内质网与蛋白合成有关，滑面内质网与脂类合成有关。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS108",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "溶酶体中含有多种酸性和碱性的水解酶",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "溶酶体主要含酸性水解酶。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS109",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "正常线粒体基质中含有相对独立、可自我复制的DNA",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "线粒体含环状DNA。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS110",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "物质穿过细胞膜出入细胞的方式中，需要消耗ATP的是",
+    "options": [
+      "简单扩散",
+      "协助扩散",
+      "主动运输",
+      "所有方式都要消耗ATP",
+      "所有方式都不需消耗ATP"
+    ],
+    "answer": "主动运输",
+    "explanation": "主动运输逆浓度梯度进行，需要能量。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS111",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "酶促反应的特点是",
+    "options": [
+      "加速反应速度并影响反应方向",
+      "改变最终分子浓度并影响反应方向",
+      "高度特异性并改变最终分子浓度",
+      "高度特异性，加速化学反应速度"
+    ],
+    "answer": "高度特异性，加速化学反应速度",
+    "explanation": "酶降低活化能而不改变平衡方向。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS112",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "细胞中的主要能量通货是",
+    "options": [
+      "CTP",
+      "葡萄糖",
+      "ATP",
+      "水"
+    ],
+    "answer": "ATP",
+    "explanation": "ATP是细胞直接能量通货。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS113",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "有氧呼吸不包括以下哪一过程",
+    "options": [
+      "糖酵解",
+      "丙酮酸氧化",
+      "三羧酸循环",
+      "卡尔文循环",
+      "氧化磷酸化"
+    ],
+    "answer": "卡尔文循环",
+    "explanation": "卡尔文循环属于光合作用暗反应。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS114",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "葡萄糖经糖酵解的产物是",
+    "options": [
+      "丙酮酸和ATP",
+      "苹果酸和CO2",
+      "乳酸和CO2",
+      "酒精和ATP"
+    ],
+    "answer": "丙酮酸和ATP",
+    "explanation": "糖酵解产物为丙酮酸、ATP和NADH。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS115",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "柠檬酸循环发生部位为",
+    "options": [
+      "线粒体",
+      "叶绿体",
+      "细胞质",
+      "内质网"
+    ],
+    "answer": "线粒体",
+    "explanation": "真核细胞三羧酸循环在线粒体基质。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS116",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "呼吸链的功能是",
+    "options": [
+      "提高电子电位水平",
+      "作为OH-受体",
+      "传递[H]、水",
+      "传递电子、产生ATP"
+    ],
+    "answer": "传递电子、产生ATP",
+    "explanation": "呼吸链通过电子传递建立质子梯度。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS117",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "化学渗透学说中不正确的是",
+    "options": [
+      "呼吸链组分按特定位置排列在线粒体内膜上",
+      "各递氢体和递电子体都有质子泵作用",
+      "H+返回膜内可推动ATP酶合成ATP",
+      "线粒体内膜外侧H+不能自由返回膜内"
+    ],
+    "answer": "各递氢体和递电子体都有质子泵作用",
+    "explanation": "并非所有电子传递组分都是质子泵。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS118",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "在能量转换方面具有重要作用的细胞器是",
+    "options": [
+      "线粒体和溶酶体",
+      "叶绿体和线粒体",
+      "高尔基体和内质网",
+      "叶绿体和过氧化物酶体"
+    ],
+    "answer": "叶绿体和线粒体",
+    "explanation": "叶绿体进行光能转换，线粒体进行化学能转换。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS119",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "携带反密码子的RNA是",
+    "options": [
+      "rRNA",
+      "mRNA",
+      "tRNA"
+    ],
+    "answer": "tRNA",
+    "explanation": "tRNA反密码子与mRNA密码子配对。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS120",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "DNA复制时新链合成方向是",
+    "options": [
+      "5′→3′",
+      "3′→5′",
+      "一条5′→3′另一条3′→5′",
+      "随机"
+    ],
+    "answer": "5′→3′",
+    "explanation": "DNA聚合酶只能沿5′→3′方向延伸新链。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS121",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "DNA生物合成时直接参与脱氧核苷酸链合成的原料是",
+    "options": [
+      "dGMP",
+      "CMP",
+      "dTTP",
+      "dADP",
+      "TTP"
+    ],
+    "answer": "dTTP",
+    "explanation": "DNA复制原料是四种dNTP。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS122",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "下列哪个是终止密码子",
+    "options": [
+      "AUC",
+      "UAG",
+      "UGC",
+      "UGG"
+    ],
+    "answer": "UAG",
+    "explanation": "UAA、UAG、UGA为终止密码子。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS123",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "遗传密码中作为起始密码子的是",
+    "options": [
+      "UAG",
+      "AUG",
+      "CCU",
+      "GCA",
+      "AGA"
+    ],
+    "answer": "AUG",
+    "explanation": "AUG编码甲硫氨酸，常作为起始密码子。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS124",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "single",
+    "prompt": "下列关于光合作用的说法不正确的是",
+    "options": [
+      "光合作用释放的氧气来自CO2",
+      "光反应由光系统及电子传递链完成",
+      "暗反应不直接需要光",
+      "最终电子受体是NADP+",
+      "光合作用发生在叶绿体中"
+    ],
+    "answer": "光合作用释放的氧气来自CO2",
+    "explanation": "释放的O2来自水的光解。",
+    "tags": [
+      "原图",
+      "代谢"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS125",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "绝大多数酶的化学本质是蛋白质，但也有一些核酸具有催化活性",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "核酶说明RNA也可具有催化活性。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS126",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "生物氧化只有在氧气存在下才能进行",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "无氧呼吸和发酵也属于生物氧化形式。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS127",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "ATP含有大量自由能，但它并不是能量的贮存形式",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "ATP是直接能量通货，不是长期储能物质。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS128",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "一分子葡萄糖在有氧情况下糖酵解能产生10分子ATP，为无氧糖酵解的4倍",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "糖酵解净生成2 ATP。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS129",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "化学渗透假说认为ATP生成与线粒体内膜两侧质子梯度有关",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "质子回流驱动ATP合酶合成ATP。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS130",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "三羧酸循环是联系糖、脂肪、核酸、蛋白质等代谢的中枢",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "三羧酸循环中间产物连接多种代谢途径。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS131",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "中心法则的信息流动顺序永远不变",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "逆转录等发现扩展了中心法则。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS132",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "真核细胞DNA复制和转录在细胞核内，翻译在细胞质中",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "真核细胞基因表达具有空间分隔。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS133",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "每个密码子可对应多种氨基酸，这称作密码子的简并性",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "简并性是多种密码子可编码同一种氨基酸。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS134",
+    "chapter": "第三章 细胞结构、代谢与遗传信息表达",
+    "type": "tf",
+    "prompt": "植物白天进行光合作用，夜晚进行呼吸作用，两者循环交替发生",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "植物白天和夜晚都进行呼吸作用。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS135",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "真核细胞中染色体主要由什么组成？",
+    "options": [
+      "DNA和RNA",
+      "DNA和组蛋白质",
+      "RNA和蛋白质",
+      "核酸和非组蛋白质"
+    ],
+    "answer": "DNA和组蛋白质",
+    "explanation": "染色质主要由DNA和组蛋白构成。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS136",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "人的皮肤细胞有丝分裂后期可同时看到几个染色体？",
+    "options": [
+      "23",
+      "46",
+      "69",
+      "92"
+    ],
+    "answer": "92",
+    "explanation": "后期姐妹染色单体分开，染色体数暂时加倍。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS137",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "细胞周期的正确顺序是",
+    "options": [
+      "G1→S→G2→M",
+      "G1→G2→M→S",
+      "G1→M→G2→S",
+      "G1→M→S→G2"
+    ],
+    "answer": "G1→S→G2→M",
+    "explanation": "间期包括G1、S、G2，随后M期。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS138",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "着丝粒分开、染色单体移向两极是有丝分裂哪个时期的特点？",
+    "options": [
+      "前期",
+      "中期",
+      "后期",
+      "末期"
+    ],
+    "answer": "后期",
+    "explanation": "有丝分裂后期姐妹染色单体分离。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS139",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "减数分裂中同源染色体联会发生于",
+    "options": [
+      "减数第一次分裂前期",
+      "减数第一次分裂中期",
+      "减数第二次分裂前期",
+      "减数第二次分裂中期"
+    ],
+    "answer": "减数第一次分裂前期",
+    "explanation": "联会发生在减Ⅰ前期。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS140",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "减数第一次分裂后期彼此分开并移向两极的是",
+    "options": [
+      "同源染色体",
+      "非同源染色体",
+      "同源染色体的姐妹染色单体",
+      "同源染色体的非姐妹染色单体"
+    ],
+    "answer": "同源染色体",
+    "explanation": "减Ⅰ后期分离的是同源染色体。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS141",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "叶片衰老时正确的生理变化是",
+    "options": [
+      "叶绿素减少，光合速率下降，蛋白质减少，可溶性碳水化合物增加",
+      "叶绿素减少，光合速率下降，蛋白质减少，可溶性碳水化合物减少",
+      "叶绿素减少，光合速率略增，蛋白质增加，可溶性碳水化合物略增",
+      "叶绿素减少，光合速率下降，蛋白质增加，可溶性碳水化合物减少"
+    ],
+    "answer": "叶绿素减少，光合速率下降，蛋白质减少，可溶性碳水化合物增加",
+    "explanation": "衰老叶片光合能力和蛋白质含量下降。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS142",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "染色质的基本单位是？",
+    "options": [
+      "超螺旋",
+      "核小体",
+      "螺线管",
+      "超螺线管"
+    ],
+    "answer": "核小体",
+    "explanation": "核小体由DNA缠绕组蛋白八聚体形成。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS143",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "下列不是核酸与蛋白质复合物的是？",
+    "options": [
+      "病毒",
+      "核酶",
+      "端粒",
+      "核糖体"
+    ],
+    "answer": "端粒",
+    "explanation": "端粒主要是染色体末端重复DNA序列及相关蛋白，教材题通常取端粒为非典型核酸蛋白复合物。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS144",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "single",
+    "prompt": "核小体连接区含有的组蛋白是？",
+    "options": [
+      "H2A",
+      "H1",
+      "H3",
+      "H2B",
+      "H4"
+    ],
+    "answer": "H1",
+    "explanation": "H1位于核小体之间的连接DNA区域。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS145",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "multi",
+    "prompt": "核小体核心组蛋白八聚体由哪些蛋白质构成？",
+    "options": [
+      "H1",
+      "H2A",
+      "H2B",
+      "H3",
+      "H4"
+    ],
+    "answer": [
+      "H2A",
+      "H2B",
+      "H3",
+      "H4"
+    ],
+    "explanation": "核心八聚体由H2A、H2B、H3、H4各两个组成，不含H1。",
+    "tags": [
+      "原图",
+      "多选"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS146",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "multi",
+    "prompt": "克隆技术中移入代孕子宫的通常是？",
+    "options": [
+      "胚胎",
+      "原肠胚",
+      "桑椹胚",
+      "神经胚"
+    ],
+    "answer": [
+      "胚胎",
+      "桑椹胚"
+    ],
+    "explanation": "核移植后的早期胚胎发育到适当阶段后移入代孕母体子宫。",
+    "tags": [
+      "原图",
+      "多选"
+    ],
+    "priority": false,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS147",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "间期核中DNA单独存在，而不是与蛋白结合成染色质",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "间期DNA与组蛋白等结合成染色质。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS148",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "有丝分裂产生四个子细胞",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "有丝分裂通常产生两个子细胞。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS149",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "纺锤丝由微丝组成",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "纺锤丝主要由微管组成。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS150",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "有丝分裂过程中每一根纺锤丝都与染色体着丝粒相连",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "并非所有纺锤丝都连接着丝粒。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS151",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "减数分裂包括两次连续细胞分裂，DNA也复制两次",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "减数分裂DNA只复制一次。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS152",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "减数第一次分裂中姐妹染色单体间的着丝粒没有发生分裂",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "减Ⅰ分离同源染色体，姐妹染色单体仍相连。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS153",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "成熟女性两侧卵巢中的卵子都处于减数第一次分裂前期",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "成熟卵母细胞发育阶段不同，表述过于绝对。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS154",
+    "chapter": "第四章 细胞增殖、分化、衰老与癌变",
+    "type": "tf",
+    "prompt": "原核细胞DNA以与组蛋白结合成染色质的形式存在",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "原核生物无典型染色质和组蛋白核小体结构。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS155",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "第二信使不包括",
+    "options": [
+      "cAMP",
+      "cGMP",
+      "Ca2+",
+      "DG"
+    ],
+    "answer": "Ca2+",
+    "explanation": "常见第二信使包括cAMP、cGMP、Ca2+、IP3、DAG；若按原卷答案为A需核对截图，建议记忆常见第二信使。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS156",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "钠通道和钾通道的主要区别是",
+    "options": [
+      "离子选择性不同",
+      "门控机制不同",
+      "失活特性不同",
+      "活化速率不同"
+    ],
+    "answer": "离子选择性不同",
+    "explanation": "通道蛋白具有离子选择性。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS157",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "基本生命活动的中枢是",
+    "options": [
+      "脑干",
+      "延髓",
+      "大脑皮层",
+      "小脑",
+      "心脏"
+    ],
+    "answer": "脑干",
+    "explanation": "脑干调节呼吸、心跳等基本生命活动。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS158",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "下列对激素特征描述错误的是",
+    "options": [
+      "作用力强",
+      "作用有特异性",
+      "可以向组织提供能量",
+      "特定细胞合成"
+    ],
+    "answer": "可以向组织提供能量",
+    "explanation": "激素传递调节信息，不直接提供能量。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS159",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "促甲状腺激素由哪里分泌？",
+    "options": [
+      "甲状腺",
+      "下丘脑",
+      "大脑",
+      "垂体前叶"
+    ],
+    "answer": "垂体前叶",
+    "explanation": "TSH由腺垂体分泌。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS160",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "属于特异性免疫的是",
+    "options": [
+      "淋巴结过滤病原菌",
+      "皮肤屏障作用",
+      "患过天花的人对天花病毒具有不感染性",
+      "唾液溶菌酶杀菌"
+    ],
+    "answer": "患过天花的人对天花病毒具有不感染性",
+    "explanation": "获得性免疫具有特异性和记忆性。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS161",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "细胞免疫是通过什么实现的？",
+    "options": [
+      "T细胞",
+      "巨噬细胞",
+      "B细胞",
+      "浆细胞"
+    ],
+    "answer": "T细胞",
+    "explanation": "细胞免疫主要由T细胞介导。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS162",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "抗体介导的免疫应答由哪种细胞完成？",
+    "options": [
+      "巨噬细胞",
+      "T淋巴细胞",
+      "B淋巴细胞",
+      "红细胞"
+    ],
+    "answer": "B淋巴细胞",
+    "explanation": "体液免疫由B细胞分化为浆细胞产生抗体。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS163",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "抗原的化学本质一般是？",
+    "options": [
+      "分子量大于一万的蛋白质",
+      "分子量大于一万的多糖",
+      "分子量大于一万的蛋白质和多糖",
+      "分子量小于一万的蛋白质和多糖"
+    ],
+    "answer": "分子量大于一万的蛋白质和多糖",
+    "explanation": "大分子蛋白质和多糖常具有较强抗原性。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS164",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "single",
+    "prompt": "干扰素是治疗哪类感染的特效药？",
+    "options": [
+      "病毒感染",
+      "细菌感染",
+      "真菌感染",
+      "寄生虫病"
+    ],
+    "answer": "病毒感染",
+    "explanation": "干扰素具有抗病毒作用。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS165",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "脂溶性固醇类激素受体在细胞膜表面，水溶性激素受体在细胞内部",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "脂溶性激素受体多在细胞内，水溶性激素受体多在膜上。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS166",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "下丘脑是调控人体内分泌腺工作状态的最高中枢",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "内分泌调节还受神经系统和垂体等多级调控，原卷判为错误。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS167",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "生长激素释放抑制因子能抑制下丘脑释放生长激素",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "生长激素主要由垂体分泌，释放抑制因子由下丘脑产生并作用于垂体。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS168",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "胰腺中的α细胞能分泌胰岛素，使血糖下降",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "胰岛β细胞分泌胰岛素，α细胞分泌胰高血糖素。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS169",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "昆虫性引诱激素是昆虫分泌的信息素",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "性引诱物质属于信息素，原卷判为正确。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS170",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "一个抗体可以结合两个以上抗原，反过来也如此",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "抗体与抗原表位结合具有特异性，表述不严谨。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS171",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "抗原决定簇是抗原分子上能与抗体或淋巴细胞表面受体结合的特定部位",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "抗原决定簇也称表位。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS172",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "细胞免疫由B细胞直接完成，T细胞负责体液免疫",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "T细胞介导细胞免疫，B细胞介导体液免疫。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS173",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "每一种B细胞表面只有一种受体分子，只能和一种抗原结合",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "一种B细胞克隆受体特异性相同，但一个抗原可能有多个表位；原卷判为错误。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS174",
+    "chapter": "第五章 细胞通讯、神经调节、内分泌与免疫",
+    "type": "tf",
+    "prompt": "红细胞膜上特异性凝集原类型就是通常所说的血型",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "ABO血型与红细胞膜表面凝集原有关。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS175",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "等位基因的互作不包括",
+    "options": [
+      "共显性",
+      "镶嵌显性",
+      "不完全显性",
+      "上位性"
+    ],
+    "answer": "上位性",
+    "explanation": "上位性是非等位基因间互作，不属于等位基因互作。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS176",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "色盲为伴X隐性遗传，父亲和外祖父为色盲、母亲正常时，姐妹患色盲概率是",
+    "options": [
+      "1",
+      "0",
+      "0.25",
+      "0.5"
+    ],
+    "answer": "0",
+    "explanation": "女儿患X隐性病需父亲给病X且母亲也给病X；母亲正常且按题意非携带时概率为0。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS177",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "两对等位基因AaBb与aabb测交，后代分离比可能是",
+    "options": [
+      "1:1:1:1",
+      "3:1",
+      "3:1和1:1",
+      "1:1:1:1和1:1"
+    ],
+    "answer": "1:1:1:1或1:1",
+    "explanation": "自由组合为1:1:1:1，连锁时可出现1:1。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS178",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "哺乳动物受精卵中的线粒体几乎全部来自",
+    "options": [
+      "精子",
+      "卵子",
+      "精子与卵子各一半",
+      "不来自卵子"
+    ],
+    "answer": "卵子",
+    "explanation": "动物线粒体多为母系遗传。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS179",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "多细胞真核生物比原核生物基因表达调控更复杂的原因是",
+    "options": [
+      "不同细胞专化执行不同功能",
+      "原核生物仅限于稳定环境",
+      "真核生物基因较少",
+      "多细胞真核生物具有合成蛋白所需基因"
+    ],
+    "answer": "不同细胞专化执行不同功能",
+    "explanation": "多细胞分化需要精细时空调控。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS180",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "乳糖操纵子中别乳糖使阻遏蛋白从哪里失活脱离？",
+    "options": [
+      "操纵基因",
+      "结构基因",
+      "启动基因",
+      "操纵子"
+    ],
+    "answer": "操纵基因",
+    "explanation": "诱导物与阻遏蛋白结合，使其不能结合操纵基因。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS181",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "与原核基因相比，真核基因的特殊结构是",
+    "options": [
+      "内含子",
+      "启动子",
+      "读码框",
+      "终止子"
+    ],
+    "answer": "内含子",
+    "explanation": "真核基因常含外显子和内含子。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS182",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "不影响编码多肽的基因突变可能是",
+    "options": [
+      "一个核苷酸缺失",
+      "起始密码子移动",
+      "一个核苷酸替代",
+      "一个核苷酸插入"
+    ],
+    "answer": "一个核苷酸的替代",
+    "explanation": "同义突变可不改变氨基酸序列。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS183",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "DNA重组技术步骤的通常顺序是",
+    "options": [
+      "1、2、3、4、5",
+      "1、4、5、2、3",
+      "1、4、2、5、3",
+      "1、2、5、3、4"
+    ],
+    "answer": "1、4、2、5、3",
+    "explanation": "先取目的基因，构建重组DNA，转化，筛选，再培养表达。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS184",
+    "chapter": "第六章 遗传与变异",
+    "type": "single",
+    "prompt": "PCR技术关键使用的耐高温酶是",
+    "options": [
+      "DNA连接酶",
+      "解链酶",
+      "引物酶",
+      "DNA聚合酶"
+    ],
+    "answer": "DNA聚合酶",
+    "explanation": "Taq DNA聚合酶可耐高温。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS185",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "一个性状可受多个基因影响，一个基因也可影响多个性状",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "多基因效应和一因多效都存在。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS186",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "孟德尔用豌豆发现分离和自由组合定律，可见连锁交换定律不适用于豌豆性状遗传",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "连锁交换规律同样可适用于相关基因。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS187",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "性染色体上的基因控制的性状随性别遗传的现象称伴性遗传",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "伴性遗传与性染色体相关。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS188",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "鸡的性别决定是ZW型，公鸡性染色体为两个异型ZW",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "鸟类雄性为ZZ，雌性为ZW。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS189",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "Avery肺炎双球菌实验表明起遗传转化作用的物质是RNA",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "Avery证明转化因子是DNA。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS190",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "基因位于染色体上，是由DNA片段和组蛋白构成",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "基因通常是具有遗传效应的DNA片段。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS191",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "生物性状由基因决定，环境不会影响基因表达",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "环境可影响基因表达和表现型。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS192",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "基因可发生突变，也可能发生回复突变",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "回复突变可使突变表型恢复。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS193",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "人类基因组计划主要目标就是搞清楚人类到底有多少个基因",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "其核心包括测序、图谱绘制和功能研究。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS194",
+    "chapter": "第六章 遗传与变异",
+    "type": "tf",
+    "prompt": "一个群落全部个体所带全部基因的总和就是一个基因库",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "更严格说种群基因库是一个种群全部个体基因总和；原卷判为正确。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS195",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "生物分类的基本单位是",
+    "options": [
+      "种",
+      "属",
+      "门",
+      "界"
+    ],
+    "answer": "种",
+    "explanation": "物种是分类的基本单位。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS196",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "分类学研究中生物物种的学名使用的是",
+    "options": [
+      "拉丁语",
+      "英语",
+      "希腊语",
+      "法语"
+    ],
+    "answer": "拉丁语",
+    "explanation": "双名法采用拉丁文或拉丁化名称。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS197",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "传统五界分类系统不包括",
+    "options": [
+      "原核生物界",
+      "原生生物界",
+      "真菌界",
+      "病毒界"
+    ],
+    "answer": "病毒界",
+    "explanation": "五界系统不设病毒界。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS198",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "Pseudomonas translucens、Pseudomonas syringae、Pseudomonas propanica属于相同的",
+    "options": [
+      "目",
+      "科",
+      "属",
+      "种"
+    ],
+    "answer": "属",
+    "explanation": "双名法第一词Pseudomonas为属名。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS199",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "脊索动物最主要的共同特征是",
+    "options": [
+      "脊索、闭管式循环系统、鳃裂",
+      "脊索、鳃裂、腹神经索",
+      "脊索、鳃裂、背神经管",
+      "脊索、闭管式循环系统、肛后尾"
+    ],
+    "answer": "脊索、鳃裂、背神经管",
+    "explanation": "脊索、背神经管、咽鳃裂等是脊索动物特征。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS200",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "下列哪些生物是原核生物",
+    "options": [
+      "病毒",
+      "细菌",
+      "肉足虫",
+      "鞭毛虫"
+    ],
+    "answer": "细菌",
+    "explanation": "细菌为原核生物。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS201",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "原生动物的营养方式主要是",
+    "options": [
+      "自养",
+      "吞噬",
+      "渗透",
+      "具专门摄食细胞器"
+    ],
+    "answer": "吞噬",
+    "explanation": "原生动物多为异养，常通过吞噬摄食。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": true,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS202",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "酵母菌有性生殖时产生什么？",
+    "options": [
+      "担子",
+      "子囊孢子",
+      "配子体",
+      "菌盖"
+    ],
+    "answer": "子囊孢子",
+    "explanation": "酵母菌多属于子囊菌，可产生子囊孢子。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS203",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "艾滋病病毒能抑制人体哪类细胞？",
+    "options": [
+      "T淋巴细胞",
+      "记忆细胞",
+      "B淋巴细胞",
+      "抗体产生"
+    ],
+    "answer": "T淋巴细胞",
+    "explanation": "HIV主要攻击CD4+T细胞。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS204",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "single",
+    "prompt": "朊病毒普遍认为仅有一种化学成分，即",
+    "options": [
+      "蛋白质",
+      "DNA",
+      "RNA",
+      "脂质"
+    ],
+    "answer": "蛋白质",
+    "explanation": "朊病毒是异常构象蛋白。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS205",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "生殖隔离是划分物种的唯一标准",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "物种划分还可结合形态、遗传、生态等标准。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS206",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "人的分类地位为动物界、脊索动物门、哺乳纲、灵长目、人科、人属、智人种",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "这是人类常用分类地位。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS207",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "眼虫介于动物与植物之间，既可光合作用又可异养生长",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "眼虫兼具自养和异养特征。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS208",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "真菌是真核生物，无叶绿素，不能光合作用，只能营异养生活",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "真菌异养吸收营养。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS209",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "软体动物门是动物界中种类最多的一门",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "节肢动物门种类最多。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS210",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "疟原虫、血吸虫、变形虫、星虫都是昆虫",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "这些不属于昆虫。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS211",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "放线菌是一类原核生物，菌丝细长不分隔，不少能产生抗生素",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "放线菌属细菌类群。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS212",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "真菌都是多细胞生物，营异养生活",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "酵母菌等为单细胞真菌。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS213",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "病毒一般由核酸芯子和蛋白质衣壳组成，不能独立生活",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "病毒必须寄生在活细胞内复制。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS214",
+    "chapter": "第七章 生物多样性与生物类群",
+    "type": "tf",
+    "prompt": "类病毒只有裸露RNA，没有蛋白质衣壳",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "类病毒为裸露环状RNA。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS215",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "所有生态系统都可区分为生产者、消费者、分解者和什么？",
+    "options": [
+      "非生物环境",
+      "温度",
+      "空气",
+      "矿质元素"
+    ],
+    "answer": "非生物环境",
+    "explanation": "生态系统由生物成分和非生物环境组成。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS216",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "生态系统中能量在相邻两营养级间传递时大体比例是",
+    "options": [
+      "1/5",
+      "1/10",
+      "1/15",
+      "1/2"
+    ],
+    "answer": "1/10",
+    "explanation": "能量传递效率常约10%。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS217",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "水域绿色藻类、陆地植物及自养微生物属于",
+    "options": [
+      "消费者",
+      "还原者",
+      "生产者",
+      "分解者"
+    ],
+    "answer": "生产者",
+    "explanation": "能进行自养合成有机物的是生产者。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS218",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "寄居蟹生活于螺壳中，它们的关系为",
+    "options": [
+      "合作关系",
+      "互利共生",
+      "寄生",
+      "共栖"
+    ],
+    "answer": "共栖",
+    "explanation": "寄居蟹利用空螺壳获得保护，属于共栖。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS219",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "下列属于动物领域行为的是",
+    "options": [
+      "羚羊通过战斗产生领头羚羊",
+      "尺蠖的丈量式运动",
+      "野牛每隔一定时间沿一定路径排便",
+      "金钱豹把食物藏起来"
+    ],
+    "answer": "野牛每隔一定时间沿一定路径排便",
+    "explanation": "领域行为常通过气味、排泄物等标记领域。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS220",
+    "chapter": "第八章 生态与环境",
+    "type": "single",
+    "prompt": "下列哪两类动物之间存在趋同进化？",
+    "options": [
+      "次鱼和鲸鱼",
+      "马和驴",
+      "人和黑猩猩"
+    ],
+    "answer": "次鱼和鲸鱼",
+    "explanation": "不同类群因相似环境形成相似适应特征属于趋同进化。",
+    "tags": [
+      "原图"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS221",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "食物网越复杂，生态系统越稳定；食物网越简单，生态系统越易波动或遭受破坏",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "复杂食物网通常具有更强稳定性。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS222",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "生态系统中的能量不能从消费者流向还原者",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "消费者遗体和排泄物可被分解者利用。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS223",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "大气中的CO2进入碳循环只有光合作用这一条途径",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "化能合成等也可固定CO2。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS224",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "生物圈是指地球上的一切生物",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "生物圈包括地球上全部生物及其生活环境。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS225",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "地衣是蓝藻和真菌的共生体",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "地衣通常是真菌与藻类或蓝细菌的共生体，原卷未作答，需注意表述。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS226",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "生物多样性包括遗传、物种、生态系统和区域多样性四个层次",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "explanation": "教材通常概括为遗传、物种和生态系统多样性。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS227",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "生物对环境的适应性是自然选择的结果",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "自然选择保留有利变异。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS228",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "多数科学家认为南方古猿是人类的早期祖先",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "南方古猿常被视为人类早期祖先类群。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  },
+  {
+    "id": "LS229",
+    "chapter": "第八章 生态与环境",
+    "type": "tf",
+    "prompt": "自然选择是推动生物进化的主要动力",
+    "options": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "explanation": "自然选择是适应进化的重要机制。",
+    "tags": [
+      "原图",
+      "判断"
+    ],
+    "priority": true,
+    "mistake": false,
+    "source": "桌面现代生物基础原图测试题"
+  }
+];
