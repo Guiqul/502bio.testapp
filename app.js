@@ -39,7 +39,7 @@ function typeLabel(type) {
 }
 
 function answerArray(q) {
-  return Array.isArray(q.answer) ? q.answer.map(String).sort() : [String(q.answer)];
+  return correctOptions(q).sort();
 }
 
 function selectedArray() {
@@ -50,6 +50,56 @@ function selectedArray() {
 
 function sameAnswer(a, b) {
   return a.length === b.length && a.every((value, index) => value === b[index]);
+}
+
+function normalizeText(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[a-d][.、．)]/g, "")
+    .replace(/[，。、“”‘’：:；;（）()【】\[\]\s]/g, "")
+    .replace(/^(答案|正确答案|为|是|包括|不包括|进行)/, "");
+}
+
+function overlapScore(a, b) {
+  const aa = [...new Set(normalizeText(a))];
+  const bb = [...new Set(normalizeText(b))];
+  if (!aa.length || !bb.length) return 0;
+  const hit = aa.filter((ch) => bb.includes(ch)).length;
+  return hit / Math.max(aa.length, bb.length);
+}
+
+function optionPool(q) {
+  return q.type === "tf" ? ["正确", "错误"] : (q.options || []);
+}
+
+function correctOptions(q) {
+  const options = optionPool(q);
+  const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
+  if (q.type === "short") return answers.map(String);
+
+  return answers.map((answer) => {
+    const raw = String(answer || "").trim();
+    const letter = raw.match(/^[A-D]$/i);
+    if (letter) {
+      const index = letter[0].toUpperCase().charCodeAt(0) - 65;
+      if (options[index]) return options[index];
+    }
+
+    const exact = options.find((option) => String(option) === raw);
+    if (exact) return exact;
+
+    const normalizedAnswer = normalizeText(raw);
+    const contains = options.find((option) => {
+      const normalizedOption = normalizeText(option);
+      return normalizedOption.includes(normalizedAnswer) || normalizedAnswer.includes(normalizedOption);
+    });
+    if (contains) return contains;
+
+    const ranked = options
+      .map((option) => ({ option, score: overlapScore(option, raw) }))
+      .sort((a, b) => b.score - a.score);
+    return ranked[0]?.score >= 0.45 ? ranked[0].option : raw;
+  });
 }
 
 function filteredQuestions() {
@@ -93,6 +143,8 @@ function pickQuestion() {
 }
 
 function answerText(q) {
+  const mapped = correctOptions(q);
+  if (q.type !== "short" && mapped.length) return mapped.join("、");
   return Array.isArray(q.answer) ? q.answer.join("、") : String(q.answer);
 }
 
@@ -185,7 +237,12 @@ function submitAnswer(viewOnly = false) {
   showAnswer(ok, selectedText);
   updateStats();
   renderLists();
-  autoTimer = setTimeout(() => renderQuestion(), 1600);
+  if (!viewOnly && ok === true && document.getElementById("practiceView").classList.contains("active")) {
+    autoTimer = setTimeout(() => renderQuestion(), 1600);
+  } else {
+    const countdown = $("feedback").querySelector(".countdown");
+    if (countdown) countdown.textContent = "本题不会自动跳转，可以手动点“下一题”或进入回看。";
+  }
 }
 
 function updateStats() {
