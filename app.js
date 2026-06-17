@@ -2,6 +2,7 @@ let questions = [];
 let current = null;
 let orderIndex = 0;
 let autoTimer = null;
+let randomQueue = { key: "", ids: [] };
 
 const storeKey = "bioQuiz.complete.v3";
 const state = JSON.parse(localStorage.getItem(storeKey) || '{"history":{},"recent":[]}');
@@ -124,6 +125,28 @@ function weight(q) {
   return Math.max(0.2, w);
 }
 
+function queueKey(list, currentMode) {
+  const chapter = $("chapterFilter").value || "全部章节";
+  return [currentMode, chapter, list.map((q) => q.id).join(",")].join("|");
+}
+
+function shuffle(list, currentMode) {
+  const ranked = list.map((q) => ({
+    q,
+    rank: currentMode === "adaptive" ? Math.pow(Math.random(), 1 / weight(q)) : Math.random()
+  }));
+  return ranked.sort((a, b) => b.rank - a.rank).map((item) => item.q.id);
+}
+
+function refillRandomQueue(list, currentMode, key) {
+  const ids = shuffle(list, currentMode);
+  if (current && ids.length > 1 && ids[0] === current.id) {
+    const index = ids.findIndex((id) => id !== current.id);
+    [ids[0], ids[index]] = [ids[index], ids[0]];
+  }
+  randomQueue = { key, ids };
+}
+
 function pickQuestion() {
   const list = filteredQuestions();
   const currentMode = mode();
@@ -132,14 +155,14 @@ function pickQuestion() {
     orderIndex += 1;
     return q;
   }
-  const weighted = list.map((q) => [q, currentMode === "adaptive" ? weight(q) : 1]);
-  const sum = weighted.reduce((total, item) => total + item[1], 0);
-  let cursor = Math.random() * sum;
-  for (const [q, w] of weighted) {
-    cursor -= w;
-    if (cursor <= 0) return q;
+
+  const key = queueKey(list, currentMode);
+  if (randomQueue.key !== key || randomQueue.ids.length === 0) {
+    refillRandomQueue(list, currentMode, key);
   }
-  return weighted[0][0];
+
+  const nextId = randomQueue.ids.shift();
+  return list.find((q) => q.id === nextId) || list[0];
 }
 
 function answerText(q) {
@@ -389,6 +412,7 @@ $("reviewFilter").onchange = renderLists;
 document.addEventListener("change", (event) => {
   if (event.target.name === "mode" || event.target.id === "chapterFilter") {
     orderIndex = 0;
+    randomQueue = { key: "", ids: [] };
     renderQuestion();
     renderLists();
   }
