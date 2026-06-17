@@ -1,0 +1,56 @@
+name: Validate and update question bank
+
+on:
+  pull_request:
+    paths:
+      - "data/**/*.json"
+      - "contributions/**/*.json"
+      - "scripts/build_question_bank.py"
+      - "questions.json"
+      - "questions.js"
+  push:
+    branches: ["main"]
+    paths:
+      - "data/**/*.json"
+      - "contributions/**/*.json"
+      - "scripts/build_question_bank.py"
+
+permissions:
+  contents: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate question bank
+        run: python scripts/build_question_bank.py
+
+  update-after-approval:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Rebuild question bank
+        run: python scripts/build_question_bank.py
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add questions.json questions.js
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+          else
+            git commit -m "Update generated question bank"
+            git push origin HEAD:main
+          fi
+      - name: Publish Pages branch
+        run: git push origin HEAD:gh-pages

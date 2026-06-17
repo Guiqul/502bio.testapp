@@ -79,7 +79,7 @@ label {
   padding: 7px 0;
   color: #263442;
 }
-select, button, textarea, input[type="search"] {
+select, button, textarea, input[type="search"], .button-link {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -95,7 +95,23 @@ button {
   cursor: pointer;
   font-weight: 700;
 }
+.button-link {
+  display: block;
+  margin-top: 8px;
+  padding: 11px 12px;
+  border-color: #12645f;
+  background: var(--accent);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
 button.secondary, button.tab, button.question-item, button.mini {
+  background: white;
+  color: var(--ink);
+  border-color: var(--line);
+}
+.secondary-link {
   background: white;
   color: var(--ink);
   border-color: var(--line);

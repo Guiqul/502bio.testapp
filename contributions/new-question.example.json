@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "chapter": "第二章 生命的化学基础",
+      "type": "single",
+      "prompt": "自然界中存在的葡萄糖的构象主要是？",
+      "options": ["为D型、L型两种构象", "为L型构象", "为D型构象", "上述均不对"],
+      "answer": "C",
+      "explanation": "天然存在并被生物体主要利用的葡萄糖通常为D-葡萄糖。",
+      "tags": ["糖类", "易错题"],
+      "priority": true,
+      "mistake": true,
+      "source": "投稿示例"
+    }
+  ]
+}

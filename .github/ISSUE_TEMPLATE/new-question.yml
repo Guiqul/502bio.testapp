@@ -1,0 +1,30 @@
+name: 投稿新题
+description: 提交希望加入题库的新题。正式入库仍建议发 Pull Request。
+title: "投稿新题："
+labels: ["question-submission"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 题目内容
+      description: 请写清题干、选项、答案和解析。
+      placeholder: |
+        题干：
+        A.
+        B.
+        C.
+        D.
+        正确答案：
+        解析：
+    validations:
+      required: true
+  - type: input
+    id: chapter
+    attributes:
+      label: 所属章节
+      placeholder: 第二章 生命的化学基础
+  - type: input
+    id: source
+    attributes:
+      label: 题目来源
+      placeholder: 课堂测试/教材/自拟
